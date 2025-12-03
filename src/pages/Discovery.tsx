@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
-import { X, Heart, MapPin, Home } from 'lucide-react';
+import { X, Heart, MapPin } from 'lucide-react';
 import { USERS } from '../data/mock';
 import { useNavigate } from 'react-router-dom';
 

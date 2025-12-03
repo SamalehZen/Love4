@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import { SlidersHorizontal, Coffee } from 'lucide-react';
 
 const MapPage = () => {
-  const [distance, setDistance] = useState(3);
   
   return (
     <div className="min-h-screen w-full bg-[#6C5CE7] text-white relative pb-32 md:pb-0 md:flex md:overflow-hidden">
